@@ -12,3 +12,5 @@ Attribute 26 is the city,
 31 is the phone number
 
 I process the data by using IF and GROUP_CONCAT.
+
+Out put as CSV to /tmp/ directory.
