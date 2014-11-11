@@ -17,5 +17,5 @@ Out put as CSV to /tmp/ directory.
 
 To Dump the database with the address related table only:
 ```
-mysqldump --opt -h IP_ADDRESS -u DATABASE_NAME -pPASSWORD --lock-tables=false peaches_prod customer_address_entity_int peaches_prod customer_entity customer_entity_varchar customer_entity_text customer_address_entity customer_address_entity_text customer_address_entity_varchar sales_flat_order> peachproduction3.sql
+mysqldump --opt -h IP_ADDRESS -u DATABASE_NAME -pPASSWORD --lock-tables=false peaches_prod customer_address_entity_int customer_entity customer_entity_varchar customer_entity_text customer_address_entity customer_address_entity_text customer_address_entity_varchar sales_flat_order> SQL_FILE_NAME.sql
 ```
